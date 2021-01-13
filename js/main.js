@@ -287,10 +287,6 @@
                       index: 'vimeo.com/',
                       id: '/',
                       src: '//player.vimeo.com/video/%id%?autoplay=1'
-                    },
-                    gmaps: {
-                      index: '//maps.google.',
-                      src: '%id%&output=embed'
                     }
                 },
 
@@ -302,14 +298,6 @@
                  values.title = item.el.attr('title');
                 }
             },
-        });
-
-        //Google Maps
-        $("#map").googleMap({
-            zoom: 16 // Google Map ZOOM. You can change this value
-        });
-        $("#map").addMarker({
-            address: "S601 Townsend Street, San Francisco, California, USA", // Your Address. Change it
         });
     });
 
