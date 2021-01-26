@@ -477,10 +477,6 @@ input[type="submit"]:focus {
 }
 /* --- End Social Links --- */
 
-.header-buttons {
-  margin-top: 50px;
-}
-
 .header-buttons .btn-primary {
   background-color: transparent;
   color: #f5f5f5;
@@ -495,10 +491,9 @@ input[type="submit"]:focus {
 
 .header .copyrights {
   color: #bbb;
-  width: 380px;
-  position: absolute;
+  margin: auto;
+  position: relative;
   bottom: 0;
-  left: 0;
   padding: 5px 10px 15px;
   line-height: 14px;
   font-size: 12px;
