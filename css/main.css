@@ -309,6 +309,10 @@ input[type="submit"]:focus {
     box-shadow: 0 0 30px -5px rgba(0,0,0,.15);
   }
 
+  ul.main-menu li {
+    display: none;
+  }
+
   ul.main-menu a {
     display: block;
     position: relative;
@@ -2755,7 +2759,6 @@ blockquote {
     border-radius: 0;
   }
   .page {
-    padding-left: 86px;
     padding-right: 0;
   }
   .animated-section, .single-page-content {
