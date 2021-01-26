@@ -2336,6 +2336,7 @@ blockquote {
   }
 
   ul.main-menu {
+    display: none;
     margin: 30px 0;
   }
 
