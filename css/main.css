@@ -114,7 +114,7 @@ p {
   width: 100%;
   height: 100%;
   min-height: 100%;
-  padding: 0 100px;
+  padding: 0;
   overflow: hidden;
 }
 
@@ -1309,23 +1309,23 @@ textarea.form-control, textarea.form-control:focus {
 
 /* --- Skills Values --- */
 .skills-second-style .skill-container.skill-1 .skill-percentage {
-  width: 95%;
-}
-
-.skills-second-style .skill-container.skill-2 .skill-percentage {
-  width: 65%;
-}
-
-.skills-second-style .skill-container.skill-3 .skill-percentage {
-  width: 80%;
-}
-
-.skills-second-style .skill-container.skill-4 .skill-percentage {
   width: 90%;
 }
 
+.skills-second-style .skill-container.skill-2 .skill-percentage {
+  width: 80%;
+}
+
+.skills-second-style .skill-container.skill-3 .skill-percentage {
+  width: 75%;
+}
+
+.skills-second-style .skill-container.skill-4 .skill-percentage {
+  width: 70%;
+}
+
 .skills-second-style .skill-container.skill-5 .skill-percentage {
-  width: 95%;
+  width: 90%;
 }
 
 .skills-second-style .skill-container.skill-6 .skill-percentage {
@@ -1333,15 +1333,15 @@ textarea.form-control, textarea.form-control:focus {
 }
 
 .skills-second-style .skill-container.skill-7 .skill-percentage {
-  width: 100%;
+  width: 70%;
 }
 
 .skills-second-style .skill-container.skill-8 .skill-percentage {
-  width: 75%;
+  width: 65%;
 }
 
 .skills-second-style .skill-container.skill-9 .skill-percentage {
-  width: 90%;
+  width: 60%;
 }
 
 /* --- End of Skills Values --- */
@@ -2726,10 +2726,10 @@ blockquote {
 ============================================================================= */
 @media only screen and (min-width: 1300px) {
   .header {
-    max-width: 420px;
+    max-width: 300px;
   }
   .content-area {
-    max-width: calc(100% - 420px);
+    max-width: calc(100% - 300px);
   }
 
   .header .copyrights {
