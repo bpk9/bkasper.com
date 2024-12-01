@@ -1,2 +1,3 @@
 # bkasper.com
- Personal Website
+
+Personal Website written in NextJS
